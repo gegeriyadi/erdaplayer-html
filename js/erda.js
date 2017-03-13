@@ -1,10 +1,3 @@
-// Auto load
-function playStream(){
-	var aud = document.getElementById("audioStream");
-	$('#zen').addClass('play');
-	aud.play();
-	document.getElementById("status").innerHTML = "Status: ON";
-}
 
 // clik play/pause
 $(document).ready(function(){
