@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<title>Erda Player | Erdamah FM</title>
+	<meta charset="utf-8">
+
+	<meta property="og:title" content="Streaming Radio Erdamah FM | Jalin Ukhuwah Cerdaskan Ummat" />
+	<meta property="og:type" content="music.radio_station" />
+	<meta property="og:url" content="http://streaming.erdamahfm.com/" />
+	<meta property="og:image" content="http://streaming.erdamahfm.com/img/fb-thumb.jpg" />
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/zen.css">
+
+<body onload="playStream()">
+	<div class="container">
+		<div class="row">
+		<header id="status">Status: OFF - Press Play button!</header>
+		<div class="erda-logo">
+		</div>
+		<div class="zen-block">
+			<div id="zen">
+				<span class="player"></span>
+				<span class="circle"></span>
+				<span class="progress"></span>
+				<span class="buffer"></span>
+				<span class="drag"></span>
+				<div class="button">
+					<span class="icon play"></span>
+					<span class="icon pause"></span>
+				</div>
+			</div>
+		</div>
+		<footer><p>Erda Player v2.0</p></footer>
+	</div>
+</div>
+</body>
+
+<audio id="audioStream">
+	<source src="http://live.erdamahfm.com:9900/stream" type="audio/mpeg">
+</audio>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/erda.js"></script>
+
+</html>

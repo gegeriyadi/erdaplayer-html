@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-image: url("img/bg.png");
+    background-repeat: repeat;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header{
+    margin-top: 30px;
+    text-align: center;
+}
+
+header p{
+    margin: 0;
+}
+
+.zen-block{
+    display: block;
+    margin: 65px auto 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.erda-logo{
+    width: 260px;
+    height: 55px;
+    display: block;
+    margin: 90px auto 0 auto;
+    background-image: url("img/erda-logo.png")
+}
+
+footer {
+    text-align: center;
+    margin-top: 190px;
+    padding-bottom: 20px;
+}
